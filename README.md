@@ -25,6 +25,15 @@ How To Install Protobuf
 
 7.Add `./src/ProtocolBuffers/ProtocolBuffers.xcodeproj` in your project.
 
+Installing from CocoaPods(pre-release)
+--------------------------------------
+
+```Podfile
+platform :ios, '8.0'
+use_frameworks!
+pod 'ProtocolBuffersSwift'
+```
+
 Compile ".proto" files.
 -----------------------
 
